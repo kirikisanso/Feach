@@ -1,0 +1,50 @@
+body {
+    padding-top: 20px;
+}
+
+#posts {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 15px;
+    border: 2px solid #6a1b9a;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #6a1b9a;
+    border-color: #6a1b9a;
+}
+
+.btn-primary:hover {
+    background-color: #4a148c;
+    border-color: #4a148c;
+}
+
+.btn-success {
+    background-color: #388e3c;
+    border-color: #388e3c;
+}
+
+.btn-success:hover {
+    background-color: #2e7d32;
+    border-color: #2e7d32;
+}
+
+.load-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
